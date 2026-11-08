@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="ishine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wbody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0faff"/>
+      <stop offset="100%" stop-color="#dbeefe"/>
+    </linearGradient>
+    <linearGradient id="ctop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="320" height="320" rx="72" fill="url(#ibg)"/>
+  <rect width="320" height="320" rx="72" fill="url(#ishine)"/>
+
+  <rect x="0" y="215" width="320" height="105" fill="#0284c7" fill-opacity="0.13"/>
+  <rect x="0" y="278" width="320" height="42" fill="#0284c7" fill-opacity="0.09"/>
+
+  <!-- 鲸鱼身体 -->
+  <path d="
+    M 56 226
+    C 56 198 74 182 100 177
+    C 118 173 138 175 158 176
+    C 182 173 208 172 230 175
+    C 252 178 268 190 274 206
+    C 278 218 276 232 268 244
+    C 260 255 248 262 234 266
+    C 224 269 240 266 248 260
+    C 258 252 264 240 262 228
+    C 260 216 252 208 240 208
+    C 228 208 218 218 218 230
+    C 218 244 228 254 240 256
+    C 220 268 194 274 166 274
+    C 134 274 106 268 84 258
+    C 66 248 56 238 56 226 Z
+  " fill="url(#wbody)" stroke="#bae6fd" stroke-width="0.8"/>
+
+  <!-- 尾巴上叶 -->
+  <path d="
+    M 240 210
+    C 248 204 258 196 268 184
+    C 276 174 280 162 276 152
+    C 284 158 288 170 286 184
+    C 284 196 278 206 270 212
+    C 262 218 250 220 240 218
+    C 240 216 240 212 240 210 Z
+  " fill="#dbeefe" stroke="#bae6fd" stroke-width="0.8"/>
+
+  <!-- 尾巴下叶 -->
+  <path d="
+    M 240 228
+    C 248 234 260 242 272 248
+    C 282 253 292 254 298 250
+    C 296 260 288 268 278 270
+    C 268 272 258 268 250 262
+    C 244 257 240 248 240 240
+    C 240 236 240 231 240 228 Z
+  " fill="#dbeefe" stroke="#bae6fd" stroke-width="0.8"/>
+
+  <!-- 眼睛 -->
+  <ellipse cx="96" cy="212" rx="7.5" ry="7.5" fill="#0369a1"/>
+  <ellipse cx="98.5" cy="209" rx="3" ry="3" fill="white" fill-opacity="0.9"/>
+  <ellipse cx="98" cy="208" rx="1.2" ry="1.2" fill="#0369a1"/>
+
+  <!-- 微笑 -->
+  <path d="M 68 226 C 74 232 84 235 96 232" fill="none" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.45"/>
+
+  <!-- 水波 -->
+  <path d="M 40 272 C 66 264 92 272 118 272 C 144 272 168 264 194 264 C 218 264 240 272 264 271"
+        fill="none" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M 46 286 C 70 279 96 286 122 286 C 148 286 170 279 194 280"
+        fill="none" stroke="#7dd3fc" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.28"/>
+
+  <!-- 容器1 -->
+  <rect x="76" y="138" width="36" height="40" rx="4" fill="white" fill-opacity="0.97"/>
+  <rect x="76" y="138" width="36" height="11" rx="4" fill="url(#ctop)"/>
+  <rect x="76" y="148" width="36" height="1" fill="#bae6fd"/>
+  <rect x="81" y="154" width="10" height="3" rx="1.5" fill="#7dd3fc" fill-opacity="0.7"/>
+  <rect x="81" y="161" width="16" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+  <rect x="81" y="166" width="12" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+
+  <!-- 容器2 -->
+  <rect x="120" y="126" width="36" height="52" rx="4" fill="white" fill-opacity="0.97"/>
+  <rect x="120" y="126" width="36" height="11" rx="4" fill="url(#ctop)"/>
+  <rect x="120" y="136" width="36" height="1" fill="#bae6fd"/>
+  <rect x="125" y="142" width="10" height="3" rx="1.5" fill="#7dd3fc" fill-opacity="0.7"/>
+  <rect x="125" y="149" width="16" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+  <rect x="125" y="154" width="12" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+  <rect x="125" y="159" width="14" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+  <rect x="125" y="164" width="10" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+
+  <!-- 容器3 -->
+  <rect x="164" y="132" width="36" height="46" rx="4" fill="white" fill-opacity="0.97"/>
+  <rect x="164" y="132" width="36" height="11" rx="4" fill="url(#ctop)"/>
+  <rect x="164" y="142" width="36" height="1" fill="#bae6fd"/>
+  <rect x="169" y="148" width="10" height="3" rx="1.5" fill="#7dd3fc" fill-opacity="0.7"/>
+  <rect x="169" y="155" width="16" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+  <rect x="169" y="160" width="12" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+  <rect x="169" y="165" width="14" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+
+  <!-- 容器4 -->
+  <rect x="208" y="142" width="36" height="36" rx="4" fill="white" fill-opacity="0.97"/>
+  <rect x="208" y="142" width="36" height="11" rx="4" fill="url(#ctop)"/>
+  <rect x="208" y="152" width="36" height="1" fill="#bae6fd"/>
+  <rect x="213" y="158" width="10" height="3" rx="1.5" fill="#7dd3fc" fill-opacity="0.7"/>
+  <rect x="213" y="165" width="14" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+  <rect x="213" y="170" width="10" height="2" rx="1" fill="#bae6fd" fill-opacity="0.5"/>
+
+  <!-- 喷水 -->
+  <path d="M 94 138 C 92 118 96 96 90 76 C 86 62 92 46 100 38"
+        fill="none" stroke="#bae6fd" stroke-width="4" stroke-linecap="round" stroke-opacity="0.72"/>
+  <path d="M 90 76 C 78 66 78 48 83 36"
+        fill="none" stroke="#bae6fd" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.48"/>
+  <path d="M 90 76 C 102 66 104 50 100 38"
+        fill="none" stroke="#bae6fd" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.48"/>
+  <ellipse cx="100" cy="37" rx="5" ry="6" fill="#bae6fd" fill-opacity="0.62"/>
+  <ellipse cx="82" cy="34" rx="4" ry="5" fill="#bae6fd" fill-opacity="0.42"/>
+  <ellipse cx="116" cy="40" rx="3.5" ry="4.5" fill="#bae6fd" fill-opacity="0.32"/>
+
+  <rect width="320" height="320" rx="72" fill="none" stroke="white" stroke-width="1.5" stroke-opacity="0.1"/>
+</svg>
