@@ -153,7 +153,7 @@
             <div class="about-desc">基于 Docker Compose 的现代化容器管理平台</div>
           </div>
           <div class="about-tech">
-            <span class="tech-badge">Go 1.22</span>
+            <span class="tech-badge">Rust 1.99</span>
             <span class="tech-badge">Vue 3</span>
             <span class="tech-badge">SQLite</span>
             <span class="tech-badge">Docker SDK</span>

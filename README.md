@@ -1,4 +1,4 @@
-# DockOps（Rust 版）
+# DockOps
 
 > 现代化 Docker 管理面板，以 Compose 为核心，**单二进制**部署，前端静态资源编译期内嵌，无需 Nginx、无需配置文件。
 >

@@ -1,6 +1,6 @@
 [package]
 name = "dockops"
-version = "1.0.0"
+version = "0.1.0"
 edition = "2021"
 description = "DockOps - Docker management panel (Rust port of the Go backend)"
 license = "MIT"
